@@ -1,0 +1,18 @@
+{
+    "name": "shirocode",
+    "version": "1.0.0",
+    "description": "A code ripoff",
+    "main": "./electron/index.js",
+    "scripts": {
+        "test": "cls && tsc && electron ."
+    },
+    "author": "ShiroDev",
+    "license": "ISC",
+    "dependencies": {
+        "electron": "^22.0.2",
+        "glob": "^8.1.0"
+    },
+    "devDependencies": {
+        "@types/glob": "^8.0.0"
+    }
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title id="title">ShiroCode</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <script src="../js/index.js" defer></script>
+</head>
+
+<body>
+    <div id="heading">
+        <h1 id="mainHeader">ShiroCode home.</h1>
+        <h2 id="warning"><i>WARNING : This does not save old file content, if you switch files, edits will be erased!
+                (Working on it!)</i></h2>
+        <button onclick="loadfile()" id="loadFile">Load file</button>
+        <button onclick="loadDirectory()" class="load-things">Load new directory</button>
+    </div>
+
+    <div id="coding" hidden=true>
+        <div class="files" id="fileHolder"></div>
+        <div class="textArea" id="codeLocation">
+            <textarea id="text" class=""></textarea>
+        </div>
+        <div class="sidebar" id="sidebar">
+            <div id="new-buttons">
+                <button onclick="loadfile()" class="load-things">Load new file</button>
+                <button onclick="loadDirectory()" class="load-things">Load new directory</button>
+            </div>
+        </div>
+        <div class="file"></div>
+    </div>
+</body>
+
+</html>
